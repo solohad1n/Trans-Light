@@ -764,6 +764,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 726px) {
+  .hero__title {
+    margin: 80px 0 0 10px;
+  }
+  .hero__subtitle {
+    margin: 0 0 0 10px;
+    font-size: 20px;
+  }
   .hero__animation {
     position: absolute;
     top: 100px;
