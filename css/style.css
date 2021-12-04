@@ -905,6 +905,9 @@ h1, h2, h3, h4, h5, h6 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .rent p {
+    margin: 0;
+  }
   .rent__text {
     text-align: center;
     padding: 0 0 15px 0;
