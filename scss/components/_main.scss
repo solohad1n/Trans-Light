@@ -252,7 +252,13 @@
         margin: 0 0 150px 0;
         
         h6{ background-color: #005BC1;
-
+            display: flex;
+            align-items: center;
+            position: absolute;
+            left: 26%;
+            top: 73%;
+            width: 265px;
+            height: 60px;
             font-family: Oswald;
             font-style: normal;
             font-weight: normal;

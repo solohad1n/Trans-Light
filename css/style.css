@@ -448,6 +448,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .catalog__item h6 {
   background-color: #005BC1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 26%;
+  top: 73%;
+  width: 265px;
+  height: 60px;
   font-family: Oswald;
   font-style: normal;
   font-weight: normal;
