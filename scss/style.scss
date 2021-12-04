@@ -1,0 +1,15 @@
+@import "./nullstyle";
+
+@import './components/header';
+
+@import './components/main';
+
+@import './components/footer';
+
+@import './sections/slider';
+
+@import './vendors/swiper-bundle.min';
+
+html {
+    scroll-behavior: smooth;
+}

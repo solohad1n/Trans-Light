@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <header id="company" class="header">
+        <div class="header__logo">
+            <a href="./index.html"><img src="./img/logo.svg" alt=""></a>
+        </div>
+        <ul class="header__nav">
+            <li><a href="#company">О компании</a></li>
+            <li><a href="#Portfolio">Портфолио</a></li>
+            <li><a href="#Catalog">Каталог</a></li>
+            <li><a href="#Service">Сервис</a></li>
+            <li><a href="#footer">Контакты</a></li>
+        </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Светотехническое оборудование<br>
+                    в Петербурге</h1>
+                <h6 class="hero__subtitle">Продажа, аренда светотехнического оборудования.<br>
+                    Оформление официальных мероприятий под ключ.</h6>
+                <button class="hero__button">ПЕРЕЙТИ</button>
+            </div>
+            <img src="./img/first-screen.jpg" alt="">
+            <div class="hero__animation"></div>
+        </section>
+
+        <section id="Portfolio" class="projects">
+            <div class="container">
+                <div class="title-main swiper">
+                    <div class="title__span">
+                        <span class="title-main__span1"></span>
+                        <span class="title-main__span2"></span>
+                    </div>
+                    <h4>Наши проекты</h4>
+                    <div class="swiper-button-prev">
+                        <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="1.1024" y1="10.1977" x2="10.0072" y2="1.29292" stroke="#005BC1"
+                                stroke-width="2" />
+                            <line y1="-1" x2="12.5932" y2="-1"
+                                transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 9.90475 19)" stroke="#005BC1"
+                                stroke-width="2" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-next">
+                        <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="-1" x2="12.5932" y2="-1"
+                                transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 9.90485 10.9048)"
+                                stroke="#005BC1" stroke-width="2" />
+                            <line x1="1.10246" y1="18.2929" x2="10.0072" y2="9.38813" stroke="#005BC1"
+                                stroke-width="2" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="projects__block swiper__projects">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="projects__content">
+                                <div class="projects__item">
+                                    <img src="./img/projects-1.svg" alt="projects-1">
+                                    <div class="projects__item__info">
+                                        <h6>ССК “ОЛИМП”</h6>
+                                        <p>Световое оформление форума “Шубы-2019”</p>
+                                    </div>
+                                </div>
+                                <div class="projects__item">
+                                    <img src="./img/projects-2.svg" alt="projects-2">
+                                    <div class="projects__item__info">
+                                        <h6>ССК “ОЛИМП”</h6>
+                                        <p>Световое оформление форума “Шубы-2019”</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="projects__content">
+                                <div class="projects__item">
+                                    <img src="./img/projects-1.svg" alt="projects-1">
+                                    <div class="projects__item__info">
+                                        <h6>ССК “ОЛИМП”</h6>
+                                        <p>Световое оформление форума “Шубы-2019”</p>
+                                    </div>
+                                </div>
+                                <div class="projects__item">
+                                    <img src="./img/projects-2.svg" alt="projects-2">
+                                    <div class="projects__item__info">
+                                        <h6>ССК “ОЛИМП”</h6>
+                                        <p>Световое оформление форума “Шубы-2019”</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Catalog" class="catalog">
+            <div class="container">
+                <div class="title-main">
+                    <div class="title__span">
+                        <span class="title-main__span1"></span>
+                        <span class="title-main__span2"></span>
+                    </div>
+                    <h4>Каталог продукции</h4>
+                </div>
+                <ul class="catalog__nav">
+                    <li class="catalog__nav__item catalog__nav__item_active">Robe</li>
+                    <li class="catalog__nav__item ">Compulite</li>
+                </ul>
+                <div id="robe">
+                    <div class="catalog__row">
+                        <div class="catalog__item">
+                            <img src="./img/catalog1.svg" alt="catalog1">
+                            <div class="catalog__item__info">
+                                <h6 class="catalog1">Статичные светодиодные приборы</h6>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <img src="./img/catalog2.svg" alt="catalog2">
+                            <div class="catalog__item__info">
+                                <h6 class="catalog2">Контроллеры</h6>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <img src="./img/catalog3.svg" alt="catalog3">
+                            <div class="catalog__item__info">
+                                <h6 class="catalog3">Аксессуары</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="compulite">
+                    <div class="catalog__row">
+                        <div class="catalog__item">
+                            <img src="./img/catalog1.svg" alt="catalog1">
+                            <div class="catalog__item__info">
+                                <h6 class="catalog1">Статичные светодиодные приборы</h6>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <img src="./img/catalog1.svg" alt="catalog2">
+                            <div class="catalog__item__info">
+                                <h6 class="catalog2">Контроллеры</h6>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <img src="./img/catalog1.svg" alt="catalog3">
+                            <div class="catalog__item__info">
+                                <h6 class="catalog3">Аксессуары</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Service" class="rent">
+            <div class="container">
+                <div class="title-main">
+                    <div class="title__span">
+                        <span class="title-main__span1"></span>
+                        <span class="title-main__span2"></span>
+                    </div>
+                    <h4>Аренда оборудования</h4>
+                </div>
+                <div class="rent__row">
+                    <div class="rent__text">
+                        <p>Мы занимаемся прокатом светового и сценического оборудования ведущих мировых производителей,
+                            таких как Robe, SGM, StudioDue, ChainMaster, Milos, Universal Effects, ArtLighting,
+                            MobilTech, Lampo, Martin, Spotlight, Compulite, Eurolite и др.</p>
+                    </div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="rent__item">
+                                    <h5>Новое оборудование, предоставляемое в аренду:</h5>
+                                    <div class="swiper-next">
+                                        <svg width="12" height="19" viewBox="0 0 12 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="1.1024" y1="10.1977" x2="10.0072" y2="1.29292" stroke="#005BC1"
+                                                stroke-width="2" />
+                                            <line y1="-1" x2="12.5932" y2="-1"
+                                                transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 9.90475 19)"
+                                                stroke="#005BC1" stroke-width="2" />
+                                        </svg>
+                                    </div>
+                                    <div class="swiper-prev">
+                                        <svg width="12" height="19" viewBox="0 0 12 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <line y1="-1" x2="12.5932" y2="-1"
+                                                transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 9.90485 10.9048)"
+                                                stroke="#005BC1" stroke-width="2" />
+                                            <line x1="1.10246" y1="18.2929" x2="10.0072" y2="9.38813" stroke="#005BC1"
+                                                stroke-width="2" />
+                                        </svg>
+                                    </div>
+                                    <div class="item__row">
+                                        <div class="item__row1">
+                                            <img src="./img/rent-img.svg" alt="rent__img">
+                                        </div>
+                                        <div class="item__row2">
+                                            <h6>Robe Robin ParFect 100</h6>
+                                            <ul>
+                                                <li>Источник света 12 светодиодов RGBW <br> по 15 Вт каждый</li>
+                                                <li>Угол раскрытия 7°</li>
+                                                <li>В комплекте рассеивающая линза 40°</li>
+                                                <li>Потребляемая мощность 200 Вт</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="rent__item">
+                                    <h5>Новое оборудование, предоставляемое в аренду:</h5>
+                                    <div class="swiper-prev">
+                                        <svg width="12" height="19" viewBox="0 0 12 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <line y1="-1" x2="12.5932" y2="-1"
+                                                transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 9.90485 10.9048)"
+                                                stroke="#005BC1" stroke-width="2" />
+                                            <line x1="1.10246" y1="18.2929" x2="10.0072" y2="9.38813" stroke="#005BC1"
+                                                stroke-width="2" />
+                                        </svg>
+                                    </div>
+                                    <div class="swiper-next">
+                                        <svg width="12" height="19" viewBox="0 0 12 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="1.1024" y1="10.1977" x2="10.0072" y2="1.29292" stroke="#005BC1"
+                                                stroke-width="2" />
+                                            <line y1="-1" x2="12.5932" y2="-1"
+                                                transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 9.90475 19)"
+                                                stroke="#005BC1" stroke-width="2" />
+                                        </svg>
+                                    </div>
+                                    <div class="item__row">
+                                        <div class="item__row1">
+                                            <img src="./img/rent-img.svg" alt="rent__img">
+                                        </div>
+                                        <div class="item__row2">
+                                            <h6>Robe Robin ParFect 100</h6>
+                                            <ul>
+                                                <li>Источник света 12 светодиодов RGBW <br> по 15 Вт каждый</li>
+                                                <li>Угол раскрытия 7°</li>
+                                                <li>В комплекте рассеивающая линза 40°</li>
+                                                <li>Потребляемая мощность 200 Вт</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="news">
+            <div class="container">
+                <div class="news__title">
+                    <div class="news__title title-main">
+                        <div class="title__span">
+                            <span class="title-main__span1"></span>
+                            <span class="title-main__span2"></span>
+                        </div>
+                        <h4>Новости</h4>
+                    </div>
+                    <button class="news__button">
+                        все новости
+                    </button>
+                </div>
+                <div class="news__row">
+                    <div class="col-6">
+                        <div class="news__item-basiс">
+                            <img src="./img/news1.jpg" alt="news1">
+                            <div class="news__item-basiс__block">
+                                <div class="news__item-basiс__block__title">
+                                    <h4 class="news__item__title">Семинар Milos</h4>
+                                    <span class="news__item__date">27.01.2019</span>
+                                </div>
+                                <div class="news__item-basiс__block__info">
+                                    <p class="news__item__paragraph">Наши сотрудники прошли последний семинар от
+                                        компании Milos.
+                                        Они получили новый объем знаний, который позволит нашей компании заниматься
+                                        оборудованием не только мероприятий, но производственных помещений.</p>
+                                    <span><a href="#"></a>Читать полностью...</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="news__item-extra">
+                            <div class="news__item-extra__block__title">
+                                <h4 class="news__item__title news__item__title-additionally">Выставка Prolight+Sound NAMM Russia 2016</h4>
+                                <p class="news__item__paragraph">30 контрактов, тысячи восторженных посетителей...</p>
+                            </div>
+                            <div class="news__item-extra__block__img">
+                                <img src="./img/news2.jpg" alt="news2">
+                                <span class="news__item__date">27.01.2019</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="news__item-extra">
+                            <div class="news__item-extra__block__title">
+                                <h4 class="news__item__title news__item__title-additionally">Семинар Robe
+                                </h4>
+                                <p class="news__item__paragraph">30 января 2017 года наши <br> сотрудники побывали в
+                                    Берлине..</p>
+                            </div>
+                            <div class="news__item-extra__block__img">
+                                <img src="./img/news3.jpg" alt="news3">
+                                <span class="news__item__date">27.01.2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__item__address">
+                    <h4>(812) 710-80-25</h4>
+                    <p>191180, Санкт-Петербург, Набережная реки Фонтанки, 90, корпус 1</p>
+                    <span>mail@translight.ru</span>
+                </div>
+                <div class="footer__item__nav">
+                    <ul class="footer__item__nav__top">
+                        <li><a href="#company">О компании</a></li>
+                        <li><a href="#Catalog">Каталог</a></li>
+                        <li><a href="#Portfolio">Наши проекты</a></li>
+                    </ul>
+                    <div class="footer__item__nav__lower">
+                        <ul>
+                            <li><a href="#news">Новости</a></li>
+                            <li><a href="#Service">Аренда</a></li>
+                            <li><a href="#footer">Сервисное обслуживание</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__item__info">
+                    <span>Все права защищены.</span>
+                    <span>Разработал Я</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./Js/vendors/swiper-bundle.min.js"></script>
+    <script src="./Js/slider.js"></script>
+    <script src="./Js/slider-click.js"></script>
+</body>
+
+</html>
