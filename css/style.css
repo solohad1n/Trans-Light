@@ -783,14 +783,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 726px) {
   .hero__title {
-    margin: 80px 0 0 35px;
+    margin: 30px 0 0 35px;
   }
   .hero__subtitle {
     margin: 0 0 0 35px;
     font-size: 20px;
   }
   .hero__button {
-    margin: 0 0 0 35px;
+    margin: -50px 0 0 35px;
   }
   .hero__animation {
     position: absolute;
@@ -848,7 +848,6 @@ h1, h2, h3, h4, h5, h6 {
   .hero img {
     -o-object-fit: cover;
        object-fit: cover;
-    height: 750px;
   }
   .title-main {
     font-size: 20px;
