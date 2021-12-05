@@ -112,13 +112,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 726px) {
+  .header {
+    min-width: 375px;
+  }
   .header__logo {
-    padding: 0;
-    position: absolute;
-    left: 30%;
-    top: 1%;
+    padding: 5px;
+    text-align: center;
   }
   .header__nav {
+    min-width: 375px;
     padding: 70px 0 5px;
   }
   .header__nav a {
@@ -782,15 +784,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 726px) {
+  .hero {
+    height: 100%;
+    min-width: 375px;
+  }
   .hero__title {
-    margin: 30px 0 0 35px;
+    line-height: 50px;
+    margin: 100px 0 0 35px;
   }
   .hero__subtitle {
-    margin: 0 0 0 35px;
-    font-size: 20px;
+    margin: 30px 0 0 35px;
+    font-size: 15px;
   }
   .hero__button {
-    margin: -60px 0 0 35px;
+    margin: 60px 0 0 35px;
   }
   .hero__animation {
     position: absolute;
@@ -819,7 +826,7 @@ h1, h2, h3, h4, h5, h6 {
       top: -250px;
     }
     50% {
-      top: -450px;
+      top: -500px;
     }
     75% {
       top: -200px;
@@ -836,7 +843,7 @@ h1, h2, h3, h4, h5, h6 {
       top: -250px;
     }
     50% {
-      top: -450px;
+      top: -500px;
     }
     75% {
       top: -200px;
@@ -846,10 +853,9 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
   .hero img {
+    min-width: 375px;
     -o-object-fit: cover;
        object-fit: cover;
-    width: 100%;
-    height: 100%;
   }
   .title-main {
     font-size: 20px;
@@ -875,8 +881,8 @@ h1, h2, h3, h4, h5, h6 {
   }
   .container {
     padding: 0 10px;
-    max-width: 375px;
     margin: 0 auto;
+    min-width: 375px;
   }
   .projects__item {
     width: 100%;
@@ -1139,6 +1145,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 726px) {
   .footer {
+    min-width: 375px;
     margin: 90px 0 0 0;
   }
   .footer__item__info {

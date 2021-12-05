@@ -31,13 +31,14 @@
 
 @media screen and (max-width: 726px) {
     .header{
+        min-width: 375px;
+        
         &__logo{
-            padding: 0;
-            position: absolute;
-            left: 30%;
-            top: 1%;
+            padding: 5px;
+            text-align: center;
             }
         &__nav{
+            min-width: 375px;
             padding: 70px 0 5px;
             a{
                 padding: 0 3px;
