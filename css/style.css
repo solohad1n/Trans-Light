@@ -846,7 +846,8 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
   .hero img {
-    width: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 100vh;
   }
   .title-main {
