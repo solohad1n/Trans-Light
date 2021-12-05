@@ -873,7 +873,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .container {
     padding: 0 10px;
-    max-width: none;
+    max-width: 375px;
     margin: 0 auto;
   }
   .projects__item {
@@ -952,7 +952,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .rent__item {
     text-align: center;
-    padding: 10px;
+    padding: 0;
   }
   .rent__item li::before {
     display: none;
@@ -969,7 +969,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .rent .swiper-prev {
     position: absolute;
-    left: 85%;
+    left: 84.5%;
     top: 10%;
   }
   .rent .swiper-next {
@@ -1024,7 +1024,7 @@ h1, h2, h3, h4, h5, h6 {
             flex-direction: column;
   }
   .swiper-wrapper {
-    max-width: 360px;
+    max-width: 350px;
   }
   .swiper {
     margin-left: 0 !important;

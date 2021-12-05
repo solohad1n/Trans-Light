@@ -586,7 +586,7 @@
     }
     .container{
         padding: 0 10px;
-        max-width: none;
+        max-width: 375px;
         margin: 0 auto;
     }
     .projects{
@@ -645,7 +645,7 @@
         flex-direction: column;
         &__item{
             text-align: center;
-            padding: 10px;
+            padding: 0;
             li::before{
                 display: none;
             }
@@ -662,7 +662,7 @@
         }
         .swiper-prev{
             position: absolute;
-            left: 85%;
+            left: 84.5%;
             top: 10%;
         }
         .swiper-next{
@@ -672,6 +672,7 @@
     .item__row{
         flex-direction: column;
     }
+    
 }
     .news{
         &__item{
@@ -714,7 +715,7 @@
         }
     }
     .swiper-wrapper{
-        max-width: 360px;
+        max-width: 350px;
     }
     .swiper{
         margin-left: 0 !important;
